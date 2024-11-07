@@ -1,10 +1,14 @@
 import React from 'react'
 import Hero from './sections/Hero'
+import CustomerReviews from './sections/CustomerReviews'
+import Nav from './components/Nav'
 
 const App = () => {
   return (
     <main className='relative'>
-      Nav
+
+      {/* Navigation */}
+      <Nav/>
 
       <section className='xl:padding-1 wide:padding-r padding-b'>
        <Hero/>
@@ -23,6 +27,7 @@ const App = () => {
         Special Offers
       </section>
       <section className=' bg-pale-blue padding'>
+        <CustomerReviews/>
         Customer Reviews
       </section>
       <section className='padding-x sm:py-32 py-16 w-full'>
