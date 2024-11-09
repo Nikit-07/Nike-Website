@@ -1,5 +1,8 @@
 import React from 'react'
 import Hero from './sections/Hero'
+import PopularProducts from './sections/PopularProducts'
+import SuperQuality from './sections/SuperQuality'
+
 import CustomerReviews from './sections/CustomerReviews'
 import Nav from './components/Nav'
 
@@ -10,15 +13,19 @@ const App = () => {
       {/* Navigation */}
       <Nav/>
 
-      <section className='xl:padding-1 wide:padding-r padding-b'>
+      <section className='xl:padding-l wide:padding-r padding-b'>
+
        <Hero/>
+
       </section>
 
       <section className='padding'>
-        Popular Product
+        
+        <PopularProducts/>
+
       </section>
       <section className='padding'>
-        Super Quality
+        <SuperQuality/>
       </section>
       <section className='padding-x py-10'>
         Services
